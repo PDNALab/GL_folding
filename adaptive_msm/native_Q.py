@@ -25,6 +25,9 @@ trajfile = traj_npz['files'].tolist()
 topfile = str(traj_npz['top'])
 
 def best_hummer_q(trajfile, native,selected=False):
+    ### 
+    adapted from https://www.mdtraj.org/1.9.8.dev0/examples/native-contact.html
+    ###
     BETA_CONST = 50  # 1/nm    
     LAMBDA_CONST = 1.8         
     NATIVE_CUTOFF = 0.45  # nanometers

@@ -7,3 +7,4 @@
 
 * AlphaFold predictions were done with local installed [ColabFold](https://github.com/sokrypton/ColabFold). ```af_GL``` contains all output structures.
 
+Check the [Reference](https://pubs.acs.org/doi/full/10.1021/jacs.2c04488). Please contact us if you need the simulation trajectories.
